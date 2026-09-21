@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from https://eldrith.pages.dev/ by HTTrack Website Copier/3.x [XR&CO], Mon, 21 Sep 2026 10:13:12 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eldrith · Open Beta — Adventures of a Dark Wizard</title>
+    <meta name="description"
+        content="Eldrith is in open beta. A story-driven pixel-art puzzle platformer set in a dark, crumbling world. Play free and help shape every patch.">
+
+    <meta name="keywords"
+        content="eldrith, open beta, dark wizard, pixel art game, puzzle platformer, indie beta, dark fantasy, free pc game beta, roguelike, narrative game, early access">
+    <meta name="author" content="Eldrith Team">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <link rel="canonical" href="index.html">
+
+    <meta property="og:site_name" content="Eldrith">
+    <meta property="og:title" content="Eldrith — Open Beta">
+    <meta property="og:description"
+        content="A story-driven pixel-art puzzle platformer, currently in open beta. Play free on Windows and help shape the final game.">
+    <meta property="og:image" content="public/images/opt/wallpaper.jpg">
+    <meta property="og:image:width" content="1920">
+    <meta property="og:image:height" content="1080">
+    <meta property="og:image:alt" content="Eldrith key art — open beta">
+    <meta property="og:url" content="index.html">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Eldrith — Open Beta">
+    <meta name="twitter:description"
+        content="A story-driven pixel-art puzzle platformer, in open beta. Free on Windows.">
+    <meta name="twitter:image" content="public/images/opt/wallpaper.jpg">
+
+    <meta name="theme-color" content="#38bdf8">
+
+    <link rel="icon" href="public/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=Pixelify+Sans:wght@500;600;700&amp;display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="src/styles/style.css">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "VideoGame",
+        "name": "Eldrith",
+        "alternateName": "Eldrith: Adventures of a Dark Wizard",
+        "url": "https://eldrith.pages.dev/",
+        "image": "https://eldrith.pages.dev/public/images/opt/wallpaper.jpg",
+        "description": "Eldrith is a small dark-fantasy pixel-art puzzle platformer in early beta. You play three characters trying to escape a crumbling world.",
+        "genre": ["Puzzle Platformer", "Dark Fantasy", "Pixel Art"],
+        "gamePlatform": ["PC", "Windows 10", "Windows 11"],
+        "operatingSystem": "Windows 10, Windows 11",
+        "applicationCategory": "Game",
+        "creativeWorkStatus": "Draft",
+        "softwareVersion": "0.4 beta",
+        "fileSize": "130 MB",
+        "inLanguage": ["en"],
+        "author": {
+            "@type": "Person",
+            "name": "Eldrith Team"
+        },
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/PreOrder",
+            "description": "Free open beta access"
+        },
+        "characterAttribute": [
+            { "@type": "Thing", "name": "The Knight — Stoic Protector" },
+            { "@type": "Thing", "name": "The Child — Curious Explorer" },
+            { "@type": "Thing", "name": "The Wanderer — Seeker of Truth" }
+        ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Eldrith",
+        "url": "https://eldrith.pages.dev/",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://eldrith.pages.dev/?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Eldrith Team",
+        "url": "https://eldrith.pages.dev/",
+        "logo": "https://eldrith.pages.dev/public/favicon.ico"
+    }
+    </script>
+</head>
+
+<body>
+    <!-- Beta download — change URL here only -->
+    <link id="downloadUrl" rel="alternate"
+        href="https://www.dropbox.com/scl/fi/mm0unf8c9f2o82nwod8m6/Eldrith.exe?rlkey=u1d9m4xgm7x3c1yg45ynih0iy&amp;st=2vg3d2jp&amp;dl=1">
+
+    <div class="progress" id="progress"></div>
+
+    <header class="nav">
+        <div class="wrap nav-wrap">
+            <a href="#top" class="brand">
+                <span class="brand-mark">◆</span>
+                <span class="brand-name">Eldrith</span>
+            </a>
+            <nav class="nav-links" id="navLinks">
+                <a href="#overview">Overview</a>
+                <a href="#story">Story</a>
+                <a href="#features">Features</a>
+                <a href="#heroes">Heroes</a>
+                <a href="#screenshots">Screenshots</a>
+                <a href="#system">System</a>
+            </nav>
+            <a href="#" data-download class="btn" target="_blank" rel="noopener">
+                <span class="btn-icon">⬇</span> Join the Beta
+            </a>
+            <button class="burger" id="burger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <main id="top">
+
+        <section id="overview" class="hero">
+            <div class="wrap hero-wrap">
+                <div class="hero-head">
+                    <div class="tag-row">
+                        <span class="tag-new">Beta</span>
+                        <span class="tag">Puzzle Platformer</span>
+                        <span class="tag">Pixel Art</span>
+                    </div>
+                    <h1 class="hero-title">Eldrith</h1>
+                    <p class="hero-sub">A small dark-fantasy pixel platformer in early beta. Still rough in places — try
+                        it, break it, tell me what's broken.</p>
+                </div>
+
+                <div class="hero-grid">
+                    <div class="media">
+                        <div class="player" id="player">
+                            <picture class="player-picture">
+                                <source srcset="public/images/opt/trailer-start.webp" type="image/webp">
+                                <img src="public/images/opt/trailer-start.jpg" alt="Eldrith trailer start frame"
+                                    class="player-poster" onerror="this.style.display='none'">
+                            </picture>
+                            <video class="player-video" id="trailerVideo" preload="metadata"
+                                poster="public/images/opt/trailer-start.jpg" playsinline>
+                                <source src="public/video/trailer.mp4" type="video/mp4">
+                                Your browser does not support HTML5 video.
+                            </video>
+
+                            <div class="vctrl" id="vctrl" aria-hidden="true">
+                                <button class="vctrl-btn vctrl-play" id="vPlay" aria-label="Play / pause">
+                                    <svg class="vc-icon-play" viewBox="0 0 24 24" aria-hidden="true">
+                                        <path
+                                            d="M8 5.5v13a.7.7 0 0 0 1.07.6l10-6.5a.7.7 0 0 0 0-1.2l-10-6.5A.7.7 0 0 0 8 5.5z" />
+                                    </svg>
+                                    <svg class="vc-icon-pause" viewBox="0 0 24 24" aria-hidden="true">
+                                        <rect x="6" y="5" width="4" height="14" rx="1.2" />
+                                        <rect x="14" y="5" width="4" height="14" rx="1.2" />
+                                    </svg>
+                                </button>
+                                <div class="vctrl-progress" id="vProgress" role="slider" aria-label="Seek" tabindex="0">
+                                    <div class="vctrl-progress-buffer" id="vProgBuf"></div>
+                                    <div class="vctrl-progress-fill" id="vProgFill"></div>
+                                    <div class="vctrl-progress-thumb" id="vProgThumb"></div>
+                                </div>
+                                <span class="vctrl-time" id="vTime">0:00 / 0:00</span>
+                                <div class="vctrl-volume" id="vVolume">
+                                    <button class="vctrl-btn vctrl-vol-btn" id="vVolBtn" aria-label="Mute / unmute">
+                                        <svg class="vc-icon-vol" viewBox="0 0 24 24" aria-hidden="true">
+                                            <path
+                                                d="M4 9v6a1 1 0 0 0 1 1h3l4.3 3.7a.7.7 0 0 0 1.2-.5V4.8a.7.7 0 0 0-1.2-.5L8 8H5a1 1 0 0 0-1 1z" />
+                                            <path d="M16.5 8.5a5 5 0 0 1 0 7" fill="none" stroke="currentColor"
+                                                stroke-width="1.8" stroke-linecap="round" />
+                                            <path d="M19 6a8 8 0 0 1 0 12" fill="none" stroke="currentColor"
+                                                stroke-width="1.8" stroke-linecap="round" />
+                                        </svg>
+                                        <svg class="vc-icon-mute" viewBox="0 0 24 24" aria-hidden="true">
+                                            <path
+                                                d="M4 9v6a1 1 0 0 0 1 1h3l4.3 3.7a.7.7 0 0 0 1.2-.5V4.8a.7.7 0 0 0-1.2-.5L8 8H5a1 1 0 0 0-1 1z" />
+                                            <path d="M16 9l5 6m0-6l-5 6" fill="none" stroke="currentColor"
+                                                stroke-width="1.8" stroke-linecap="round" />
+                                        </svg>
+                                    </button>
+                                    <div class="vctrl-vol-slider" id="vVolSlider" aria-label="Volume">
+                                        <div class="vctrl-vol-fill" id="vVolFill"></div>
+                                    </div>
+                                </div>
+                                <button class="vctrl-btn vctrl-fs" id="vFs" aria-label="Fullscreen">
+                                    <svg class="vc-icon-fs" viewBox="0 0 24 24" aria-hidden="true" fill="none"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5" />
+                                    </svg>
+                                    <svg class="vc-icon-fs-exit" viewBox="0 0 24 24" aria-hidden="true" fill="none"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M9 4v5H4M15 4v5h5M9 20v-5H4M15 20v-5h5" />
+                                    </svg>
+                                </button>
+                            </div>
+
+                            <div class="player-overlay">
+                                <button class="play" id="playBtn" aria-label="Play trailer">
+                                    <span class="play-icon">▶</span>
+                                </button>
+                                <div class="player-meta">
+                                    <span class="pill">▶ Beta Trailer</span>
+                                    <span class="pill-dim">0:59</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="thumb-strip" id="thumbStrip">
+                            <button class="thumb active" data-src="public/images/opt/trailer-start.webp"
+                                data-fallback="public/images/opt/trailer-start.jpg" data-type="poster">
+                                <img src="public/images/opt/trailer-start-thumb.webp" alt="Trailer" loading="lazy"
+                                    onerror="this.style.display='none'">
+                                <span class="thumb-badge">▶</span>
+                            </button>
+                            <button class="thumb" data-src="public/images/opt/screenshot1.webp"
+                                data-fallback="public/images/opt/screenshot1.jpg">
+                                <img src="public/images/opt/screenshot1-thumb.webp" alt="" loading="lazy"
+                                    onerror="this.style.display='none'">
+                            </button>
+                            <button class="thumb" data-src="public/images/opt/screenshot2.webp"
+                                data-fallback="public/images/opt/screenshot2.jpg">
+                                <img src="public/images/opt/screenshot2-thumb.webp" alt="" loading="lazy"
+                                    onerror="this.style.display='none'">
+                            </button>
+                            <button class="thumb" data-src="public/images/opt/screenshot3.webp"
+                                data-fallback="public/images/opt/screenshot3.jpg">
+                                <img src="public/images/opt/screenshot3-thumb.webp" alt="" loading="lazy"
+                                    onerror="this.style.display='none'">
+                            </button>
+                            <button class="thumb" data-src="public/images/opt/screenshot4.webp"
+                                data-fallback="public/images/opt/screenshot4.jpg">
+                                <img src="public/images/opt/screenshot4-thumb.webp" alt="" loading="lazy"
+                                    onerror="this.style.display='none'">
+                            </button>
+                            <button class="thumb" data-src="public/images/opt/gameplay.webp"
+                                data-fallback="public/images/opt/gameplay.jpg">
+                                <img src="public/images/opt/gameplay-thumb.webp" alt="" loading="lazy"
+                                    onerror="this.style.display='none'">
+                            </button>
+                        </div>
+                    </div>
+
+                    <aside class="info-card">
+                        <p class="info-desc">A short pixel-art platformer about three souls trying to get out. Rough
+                            around the edges — that's the point of a beta build.</p>
+
+                        <div class="review-stat beta-stat">
+                            <div class="review-stat-row">
+                                <span class="beta-dot"></span>
+                                <strong>Beta build</strong>
+                            </div>
+                            <div class="review-stat-meta">Things will change. Some will break. Feedback welcome.</div>
+                        </div>
+
+                        <dl class="info-list">
+                            <div>
+                                <dt>Stage</dt>
+                                <dd>Open beta</dd>
+                            </div>
+                            <div>
+                                <dt>Release</dt>
+                                <dd>When it's ready</dd>
+                            </div>
+                            <div>
+                                <dt>Made by</dt>
+                                <dd>Eldrith Team</dd>
+                            </div>
+                            <div>
+                                <dt>Platform</dt>
+                                <dd>Windows 10 / 11</dd>
+                            </div>
+                            <div>
+                                <dt>Languages</dt>
+                                <dd>EN</dd>
+                            </div>
+                            <div>
+                                <dt>Build</dt>
+                                <dd>v0.4 beta</dd>
+                            </div>
+                        </dl>
+
+                        <a href="#" data-download class="btn btn-block btn-lg" target="_blank" rel="noopener">
+                            <span class="btn-icon">⬇</span> Try the Beta
+                        </a>
+                        <div class="info-foot">Free · ~130 MB · No account needed</div>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <section id="story" class="band">
+            <div class="wrap two-col">
+                <div>
+                    <span class="eyebrow">About</span>
+                    <h2>A small dark-fantasy world</h2>
+                    <p>You play three characters trying to escape a crumbling place. A young girl, a knight, a wanderer.
+                        Their stories overlap.</p>
+                    <p>Pixel art, traps, simple combat, some puzzles. That's most of it.</p>
+                    <ul class="bullets">
+                        <li>Short — a couple of hours per run</li>
+                        <li>Keyboard or controller</li>
+                        <li>Built solo, in evenings</li>
+                    </ul>
+                </div>
+                <div class="art">
+                    <picture>
+                        <source srcset="public/images/opt/gameplay.webp" type="image/webp">
+                        <img src="public/images/opt/gameplay.jpg" alt="Eldrith gameplay" loading="lazy"
+                            onerror="this.style.display='none'">
+                    </picture>
+                    <div class="art-caption">⚔ Chapter II — The Hollow Halls</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="band band-alt">
+            <div class="wrap">
+                <div class="band-head">
+                    <span class="eyebrow">Features</span>
+                    <h2>Built for explorers</h2>
+                </div>
+                <div class="feature-grid">
+                    <div class="feature">
+                        <div class="feature-icon">◆</div>
+                        <h3>Atmospheric pixel world</h3>
+                        <p>A broken nightmare painted pixel by pixel. Every room hides a story you can read between the
+                            bricks.</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">⚔</div>
+                        <h3>Three playable heroes</h3>
+                        <p>Knight, child, wanderer — each with a distinct kit and a story that only fully resolves on a
+                            second playthrough.</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">⌬</div>
+                        <h3>Roguelike runs</h3>
+                        <p>Daily seeds and weekly mutators reshuffle the dungeon. Climb the global leaderboards or chase
+                            your own ghosts.</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">✦</div>
+                        <h3>Puzzles & traps</h3>
+                        <p>Lure enemies into deadly contraptions. Master scythe, hookshot, and pickaxe to crack each
+                            chamber open.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="heroes" class="band">
+            <div class="wrap">
+                <div class="band-head">
+                    <span class="eyebrow">The cast</span>
+                    <h2>Three heroes, one path</h2>
+                </div>
+                <div class="hero-grid-cards">
+                    <article class="hero-card">
+                        <div class="hero-avatar">⚔</div>
+                        <h3>The Knight</h3>
+                        <p class="role">Stoic Protector</p>
+                        <p class="desc">A valiant warrior exploring the ancient castle. His unwavering resolve drives
+                            him through the dark.</p>
+                        <div class="stats">
+                            <div class="stat"><span class="stat-name">Strength</span>
+                                <div class="bar"><i style="--w:90%"></i></div>
+                            </div>
+                            <div class="stat"><span class="stat-name">Magic</span>
+                                <div class="bar"><i style="--w:40%"></i></div>
+                            </div>
+                            <div class="stat"><span class="stat-name">Defense</span>
+                                <div class="bar"><i style="--w:85%"></i></div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="hero-card">
+                        <div class="hero-avatar">✦</div>
+                        <h3>The Child</h3>
+                        <p class="role">Curious Explorer</p>
+                        <p class="desc">A young girl with an adventurous spirit, uncovering hidden secrets and the
+                            mysteries between them.</p>
+                        <div class="stats">
+                            <div class="stat"><span class="stat-name">Agility</span>
+                                <div class="bar"><i style="--w:85%"></i></div>
+                            </div>
+                            <div class="stat"><span class="stat-name">Wisdom</span>
+                                <div class="bar"><i style="--w:75%"></i></div>
+                            </div>
+                            <div class="stat"><span class="stat-name">Luck</span>
+                                <div class="bar"><i style="--w:90%"></i></div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="hero-card">
+                        <div class="hero-avatar">◉</div>
+                        <h3>The Wanderer</h3>
+                        <p class="role">Seeker of Truth</p>
+                        <p class="desc">A mysterious man searching for answers in a crumbling world. Master of ancient
+                            magics and quieter cruelty.</p>
+                        <div class="stats">
+                            <div class="stat"><span class="stat-name">Magic</span>
+                                <div class="bar"><i style="--w:95%"></i></div>
+                            </div>
+                            <div class="stat"><span class="stat-name">Intelligence</span>
+                                <div class="bar"><i style="--w:90%"></i></div>
+                            </div>
+                            <div class="stat"><span class="stat-name">Mystery</span>
+                                <div class="bar"><i style="--w:100%"></i></div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="screenshots" class="band band-alt">
+            <div class="wrap">
+                <div class="band-head">
+                    <span class="eyebrow">Screenshots</span>
+                    <h2>From the dark</h2>
+                </div>
+                <div class="shots-rail" id="shotsRail">
+                    <a class="rail-shot" href="public/images/opt/screenshot1.webp" data-lightbox
+                        data-lightbox-fallback="public/images/opt/screenshot1.jpg">
+                        <picture>
+                            <source srcset="public/images/opt/screenshot1.webp" type="image/webp">
+                            <img src="public/images/opt/screenshot1.jpg" alt="Eldrith gameplay shot 1" loading="lazy"
+                                onerror="this.style.display='none'">
+                        </picture>
+                    </a>
+                    <a class="rail-shot" href="public/images/opt/screenshot2.webp" data-lightbox
+                        data-lightbox-fallback="public/images/opt/screenshot2.jpg">
+                        <picture>
+                            <source srcset="public/images/opt/screenshot2.webp" type="image/webp">
+                            <img src="public/images/opt/screenshot2.jpg" alt="Eldrith gameplay shot 2" loading="lazy"
+                                onerror="this.style.display='none'">
+                        </picture>
+                    </a>
+                    <a class="rail-shot" href="public/images/opt/screenshot3.webp" data-lightbox
+                        data-lightbox-fallback="public/images/opt/screenshot3.jpg">
+                        <picture>
+                            <source srcset="public/images/opt/screenshot3.webp" type="image/webp">
+                            <img src="public/images/opt/screenshot3.jpg" alt="Eldrith gameplay shot 3" loading="lazy"
+                                onerror="this.style.display='none'">
+                        </picture>
+                    </a>
+                    <a class="rail-shot" href="public/images/opt/screenshot4.webp" data-lightbox
+                        data-lightbox-fallback="public/images/opt/screenshot4.jpg">
+                        <picture>
+                            <source srcset="public/images/opt/screenshot4.webp" type="image/webp">
+                            <img src="public/images/opt/screenshot4.jpg" alt="Eldrith gameplay shot 4" loading="lazy"
+                                onerror="this.style.display='none'">
+                        </picture>
+                    </a>
+                    <a class="rail-shot" href="public/images/opt/gameplay.webp" data-lightbox
+                        data-lightbox-fallback="public/images/opt/gameplay.jpg">
+                        <picture>
+                            <source srcset="public/images/opt/gameplay.webp" type="image/webp">
+                            <img src="public/images/opt/gameplay.jpg" alt="Eldrith gameplay" loading="lazy"
+                                onerror="this.style.display='none'">
+                        </picture>
+                    </a>
+                    <a class="rail-shot" href="public/images/opt/wallpaper.webp" data-lightbox
+                        data-lightbox-fallback="public/images/opt/wallpaper.jpg">
+                        <picture>
+                            <source srcset="public/images/opt/wallpaper.webp" type="image/webp">
+                            <img src="public/images/opt/wallpaper.jpg" alt="Eldrith wallpaper" loading="lazy"
+                                onerror="this.style.display='none'">
+                        </picture>
+                    </a>
+                </div>
+                <div class="rail-controls">
+                    <button class="rail-btn" id="railPrev" aria-label="Previous">‹</button>
+                    <button class="rail-btn" id="railNext" aria-label="Next">›</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="system" class="band band-alt">
+            <div class="wrap">
+                <div class="band-head">
+                    <span class="eyebrow">PC requirements</span>
+                    <h2>Will it run?</h2>
+                </div>
+                <div class="req-grid">
+                    <div class="req">
+                        <div class="req-head">
+                            <span class="req-tag">Minimum</span>
+                            <h3>Runs the game</h3>
+                        </div>
+                        <dl>
+                            <dt>OS</dt>
+                            <dd>Windows 10 (64-bit)</dd>
+                            <dt>CPU</dt>
+                            <dd>Any dual-core 1.8 GHz+</dd>
+                            <dt>RAM</dt>
+                            <dd>2 GB</dd>
+                            <dt>GPU</dt>
+                            <dd>Intel HD 4000 / any integrated</dd>
+                            <dt>Storage</dt>
+                            <dd>200 MB available</dd>
+                        </dl>
+                    </div>
+                    <div class="req req-rec">
+                        <div class="req-head">
+                            <span class="req-tag req-tag-rec">Recommended</span>
+                            <h3>Plays at its best</h3>
+                        </div>
+                        <dl>
+                            <dt>OS</dt>
+                            <dd>Windows 10 / 11 (64-bit)</dd>
+                            <dt>CPU</dt>
+                            <dd>Any quad-core 2.5 GHz+</dd>
+                            <dt>RAM</dt>
+                            <dd>4 GB</dd>
+                            <dt>GPU</dt>
+                            <dd>GTX 750 Ti / RX 460 or better</dd>
+                            <dt>Storage</dt>
+                            <dd>300 MB available</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="wrap cta-wrap">
+                <div>
+                    <span class="eyebrow">Open beta · free</span>
+                    <h2>Join the beta.</h2>
+                    <p>No payment, no signup. Help us build the final game — every bug report and patch note has your
+                        fingerprints on it.</p>
+                </div>
+                <div class="cta-actions">
+                    <a href="#" data-download class="btn btn-lg" target="_blank" rel="noopener">
+                        <span class="btn-icon">⬇</span> Play the Beta
+                    </a>
+                    <div class="cta-meta">Windows 10/11 · ~130 MB · v0.4 beta</div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="wrap footer-wrap">
+            <div class="footer-brand">
+                <span class="brand-mark">◆</span> <span class="brand-name">Eldrith</span>
+                <span class="footer-tag">© 2026 EldrithTeam</span>
+            </div>
+            <div class="footer-links">
+                <a href="#story">Story</a>
+                <a href="#features">Features</a>
+                <a href="#heroes">Heroes</a>
+                <a href="#system">System</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+        <button class="lightbox-close" aria-label="Close">×</button>
+        <img id="lightboxImg" src="#" alt="">
+    </div>
+
+    <script src="src/script.js"></script>
+</body>
+
+
+<!-- Mirrored from https://eldrith.pages.dev/ by HTTrack Website Copier/3.x [XR&CO], Mon, 21 Sep 2026 10:13:17 GMT -->
+</html>
